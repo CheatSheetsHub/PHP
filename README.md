@@ -234,163 +234,164 @@ $cms[1] . " or " . $cms[2] . "?";
 ?>
 
 # Array Functions
-array_change_key_case
+### array_change_key_case
 Changes all keys in an array to uppercase or lowercase
-array_chunk
+### array_chunk
 Splits an array into chunks
-array_column
+### array_column
 Retrieves the values from a single column in an array
-array_combine
+### array_combine
 Merges the keys from one array and the values from another into a new
 array
-array_count_values
+### array_count_values
 Counts all values in an array
-array_diff
+### array_diff
 Compares arrays, returns the difference (values only
-array_diff_assoc
+### array_diff_assoc
 Compares arrays, returns the difference (values and keys)
-array_diff_key
+### array_diff_key
 Compares arrays, returns the difference (keys only)
-array_diff_uassoc
+### array_diff_uassoc
 Compares arrays (keys and values) through a user callback function
-array_diff_ukey
+### array_diff_ukey
 Compares arrays (keys only) through a user callback function
-array_fill
+### array_fill
 Fills an array with values
-array_fill_keys
+### array_fill_keys
 Fills an array with values, specifying keys
-array_filter
+### array_filter
 Filters the elements of an array via a callback function
-array_flip
+### array_flip
 Exchanges all keys in an array with their associated values
-array_intersect
+### array_intersect
 Compare arrays and return their matches (values only)
-array_intersect_assoc
+### array_intersect_assoc
 Compare arrays and return their matches (keys and values)
-array_intersect_key
+### array_intersect_key
 Compare arrays and return their matches (keys only)
-array_intersect_uassoc
+### array_intersect_uassoc
 Compare arrays via a user-defined callback function (keys and values)
-array_intersect_ukey
+### array_intersect_ukey
 Compare arrays via a user-defined callback function (keys only)
-array_key_exists
+### array_key_exists
 Checks if a specified key exists in an array, alternative: key_exists
-array_keys
+### array_keys
 Returns all keys or a subset of keys in an array
-array_map
+### array_map
 Applies a callback to the elements of a given array
-array_merge
+### array_merge
 Merge one or several arrays
-array_merge_recursive
+### array_merge_recursive
 Merge one or more arrays recursively
-array_multisort
+### array_multisort
 Sorts multiple or multi-dimensional arrays
-array_pad
+### array_pad
 Inserts a specified number of items (with a specified value) into an
 array
-array_pop
+### array_pop
 Deletes an element from the end of an array
-array_product
+### array_product
 Calculate the product of all values in an array
-array_push
+### array_push
 Push one or several elements to the end of the array
-array_rand
+### array_rand
 Pick one or more random entries out of an array
-array_reduce
+### array_reduce
 Reduce the array to a single string using a user-defined function
-array_replace
+### array_replace
 Replaces elements in the first array with values from following arrays
-array_replace_recursive
+### array_replace_recursive
 Recursively replaces elements from later arrays into the first array
-array_reverse
+### array_reverse
 Returns an array in reverse order
-array_search
+### array_search
 Searches the array for a given value and returns the first key if
 successful
-array_shift
+### array_shift
 Shifts an element from the beginning of an array
-array_slice
+### array_slice
 Extracts a slice of an array
-array_splice
+### array_splice
 Removes a portion of the array and replaces it
-array_sum
+### array_sum
 Calculate the sum of the values in an array
-array_udiff
+### array_udiff
 Compare arrays and return the difference using a user function (values
 only)
-array_udiff_assoc
+### array_udiff_assoc
 Compare arrays and return the difference using a default and a user
 function (keys and values)
-array_udiff_uassoc
+### array_udiff_uassoc
 Compare arrays and return the difference using two user functions
 (values and keys)
-array_uintersect
+### array_uintersect
 Compare arrays and return the matches via user function (values only)
-array_uintersect_assoc
+### array_uintersect_assoc
 Compare arrays and return the matches via a default user function
 (keys and values)
-array_uintersect_uassoc
+### array_uintersect_uassoc
 Compare arrays and return the matches via two user functions (keys and
 values)
-array_unique
+### array_unique
 Removes duplicate values from an array
-array_unshift
+### array_unshift
 Adds one or more elements to the beginning of an array
-array_values
+### array_values
 Returns all values of an array
-array_walk
+### array_walk
 Applies a user function to every element in an array
 array_walk_recursive
 Recursively applies a user function to every element of an array
-arsort
+
+### arsort
 Sorts an associative array in descending order according to the value
-asort
+### asort
 Sorts an associative array in ascending order according to the value
-compact
+### compact
 Create an array containing variables and their values
-count
+### count
 Count all elements in an array, alternatively use sizeof
-current
+### current
 Returns the current element in an array, an alternative is pos
-each
+### each
 Return the current key and value pair from an array
 end
 Set the internal pointer to the last element of an array
-extract
+### extract
 Import variables from an array into the current symbol table
-in_array
+### in_array
 Checks if a value exists in an arraykeyFetches a key from an array
-krsort
+### krsort
 Sorts an associative array by key in reverse order
-ksort
+### ksort
 Sorts an associative array by key
-list
+### list
 Assigns variables as if they were an array
-natcasesort
+### natcasesort
 Sorts an array using a “natural order” algorithm independent of case
-natsort
+### natsort
 Sorts an array using a “natural order” algorithm
-next
+### next
 Advance the internal pointer of an array
-prev
+### rev
 Move the internal array pointer backwards
-range
+### range
 Creates an array from a range of elements
-reset
+### reset
 Set the internal array pointer to its first element
-rsort
+### rsort
 Sort an array in reverse order
-shuffle
+### shuffle
 Shuffle an array
-sort
+### sort
 Sorts an indexed array in ascending order
-uasort
+### uasort
 Sorts an array with a user-defined comparison function
-uksort
+### uksort
 Arrange an array by keys using a user-defined comparison function
-usort
+### usort
 Categorize an array by values using a comparison function defined by
-the user
+### the user
 
 # STRINGS
 ### Defining Strings
